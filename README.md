@@ -15,6 +15,7 @@ Git
 2. Navegue até o diretório do projeto.
 3. Execute o comando Maven para baixar as dependências do projeto: `mvn clean install`.
 4. Inicie o servidor embutido do Spring Boot: `mvn spring-boot:run`.
+5. Para executar os testes unitários você pode utilizar o comando: `mvn test`
    
 Após executar esses passos, o projeto será compilado e estará sendo executado na porta 8080.
 
