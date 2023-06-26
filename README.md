@@ -22,13 +22,6 @@ Após executar esses passos, o projeto será compilado e estará sendo executado
 ### Endpoints
 A seguir, estão os endpoints disponíveis no projeto:
 - GET /transacao: Retorna a lista de transações financeiras.
-- POST /agendarTransferencia: Permite cadastrar um agendamento de transferência. Os detalhes da transferência devem ser enviados no corpo da requisição no formato JSON. Exemplo de corpo de requisição: `
-{
-  "contaOrigem": "123456",
-  "contaDestino": "789012",
-  "dataTransferencia": "2023-06-30",
-  "valor": 1000.00
-
-}`
+- POST /agendarTransferencia: Permite cadastrar um agendamento de transferência. Os detalhes da transferência devem ser enviados no corpo da requisição no formato JSON. Exemplo de corpo de requisição: `{ "contaOrigem": "123456", "contaDestino": "789012","dataTransferencia": "2023-06-30","valor": 1000.00 }`
 
 Certifique-se de substituir os valores acima pelos dados reais da transferência que deseja agendar.
