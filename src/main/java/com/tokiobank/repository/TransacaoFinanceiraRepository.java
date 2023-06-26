@@ -1,4 +1,4 @@
-package com.tokiobank.repositories;
+package com.tokiobank.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

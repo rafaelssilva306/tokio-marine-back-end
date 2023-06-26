@@ -24,9 +24,13 @@ public class TransacaoFinanceira {
 
     private LocalDate dataTransferencia;
 
-    private Double valorTransferencia;
-
-    public Long getId() {
+    private Double valor;
+    
+    public TransacaoFinanceira() {
+    	
+    }
+    
+	public Long getId() {
         return id;
     }
 
@@ -50,15 +54,15 @@ public class TransacaoFinanceira {
         this.contaDestino = contaDestino;
     }
 
-    public Double getValorTransferencia() {
-        return valorTransferencia;
-    }
+    public Double getValor() {
+		return valor;
+	}
 
-    public void setValorTransferencia(Double valorTransferencia) {
-        this.valorTransferencia = valorTransferencia;
-    }
+	public void setValor(Double valor) {
+		this.valor = valor;
+	}
 
-    public Double getTaxa() {
+	public Double getTaxa() {
         return taxa;
     }
 
@@ -81,5 +85,5 @@ public class TransacaoFinanceira {
     public void setDataTransferencia(LocalDate dataTransferencia) {
         this.dataTransferencia = dataTransferencia;
     }
-    
+  
 }

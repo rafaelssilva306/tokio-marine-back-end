@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tokiobank.model.TransacaoFinanceira;
-import com.tokiobank.repositories.TransacaoFinanceiraRepository;
+import com.tokiobank.repository.TransacaoFinanceiraRepository;
 
 @Service
 public class TransacaoFinanceiraService {
